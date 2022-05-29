@@ -46,7 +46,7 @@ android {
 }
 
 dependencies {
-    implementation project(':sliding-bar')
+    implementation 'com.github.cybercoder-naj:sliding-bar:1.0.0'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation "androidx.compose.ui:ui:$compose_version"
