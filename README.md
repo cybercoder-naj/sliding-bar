@@ -47,6 +47,12 @@ SlidingBar(
 )
 ```
 
+## Contributing
+
+Contributions are always welcome!
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for ways to get started.
+
 ## License
 
 [MIT](LICENSE)
