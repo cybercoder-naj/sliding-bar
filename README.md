@@ -9,7 +9,7 @@ Slider Composable for the Jetpack Compose UI-toolkit for Android Application Dev
 
 ## Demo
 
-[![Demo gif](images/demo.gif)](images/demo.gif)
+<img src="images/demo.gif" height="400">
 
 ## Installation
 
