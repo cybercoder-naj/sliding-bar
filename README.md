@@ -1,3 +1,3 @@
 # Sliding Bar
 
-An attempt to improve the Jetpack Compose's Slider issues.
+Slider Composable for the Jetpack Compose UI-toolkit for Android Application Development
