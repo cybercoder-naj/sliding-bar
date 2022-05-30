@@ -56,12 +56,9 @@ fun SlidingBar(
                     }
                     MotionEvent.ACTION_MOVE -> {
                         val dx = it.x - downX
-                        Log.d("my_debug", "Slider: dx = $dx")
-                        Log.d("my_debug", "Slider: threshold = $threshold")
                         if (abs(dx) >= threshold) {
                             val newValue = if (dx > 0) value + stepSize else value - stepSize
                             if (newValue in valueRange) {
-                                Log.d("my_debug", "Slider: newValue = $newValue")
                                 onValueChanged(newValue)
                                 downX = it.x
                             }

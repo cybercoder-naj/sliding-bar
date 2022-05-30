@@ -31,6 +31,8 @@ And the dependency in your app `build.gradle` file
 
 ## Usage/Examples
 
+Remember to add the `@ExperimentalComposeUiApi` annotation to your class/function.
+
 ```kotlin
 SlidingBar(
     value = value,
